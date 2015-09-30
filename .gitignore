@@ -2,5 +2,7 @@ node_modules
 npm-debug.log
 test
 tmp
-result
-result/*
+report
+report/*
+develop_memo.txt
+sample.css
