@@ -1,0 +1,25 @@
+##
+# result format
+##
+#
+# {
+#   messages: array,
+#   stats: array,
+#   ruleset: hash
+# }
+
+{ messages:
+   [ { type: 'warning',
+       line: 18,
+       col: 12,
+       message: 'Heading (h1) should not be qualified.',
+       evidence: '.ui-header h1.ui-title {',
+       rule: [Object] } ],
+  stats: [ important: 6, 'font-sizes': 11, floats: 0, 'rule-count': 69 ],
+  ruleset:
+   { important: 1,
+     'adjoining-classes': 1,
+     'known-properties': 1,
+     'box-sizing': 1,
+     'box-model': 1 }
+}
